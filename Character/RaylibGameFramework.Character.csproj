@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>RaylibGameFramework.Character</PackageId>
+    <Version>0.1.0</Version>
+    <Description>Rendering-independent humanoid capsule ragdolls, articulated constraints, contacts, skeleton pose mapping and recovery blending using System.Numerics.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Physics/**/*.cs" />
+    <Compile Include="../Skeleton/**/*.cs" />
+    <None Include="../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
